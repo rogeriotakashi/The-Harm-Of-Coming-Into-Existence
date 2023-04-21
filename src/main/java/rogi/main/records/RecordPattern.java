@@ -5,7 +5,7 @@ import java.util.List;
 
 public class RecordPattern {
     public static void main(String[] args) {
-        record Point(isnt x, int y){};
+        record Point(int x, int y){};
         List<Point> points = Arrays.asList(
                 new Point(0, 0),
                 new Point(0, 1),
